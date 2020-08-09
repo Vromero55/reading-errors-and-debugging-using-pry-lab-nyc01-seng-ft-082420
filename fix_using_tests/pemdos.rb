@@ -6,6 +6,7 @@ def snake_it_up(string)
     while (counter < 11) do
       string[counter] = string[0] + string[counter + 1]
     counter += 1
+  binding.pry
   end
 string
 else
