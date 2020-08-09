@@ -4,11 +4,11 @@ def snake_it_up(string)
     counter = 0
     string = newword
     while (counter < 11) do
-      string[counter] = string[0] + string[counter + 1]
+      newword[counter] = newword[0] + newword[counter + 1]
     counter += 1
   binding.pry
   end
-string
+newword
 else
     string
   end
