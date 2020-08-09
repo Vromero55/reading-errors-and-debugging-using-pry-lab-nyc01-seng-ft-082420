@@ -5,7 +5,7 @@ def snake_it_up(string)
     counter = 0
     while (counter < 11) do
       string[counter] = string[0] + string[counter + 1]
-    counter +=1
+    counter += 1
   end
 else
     string
