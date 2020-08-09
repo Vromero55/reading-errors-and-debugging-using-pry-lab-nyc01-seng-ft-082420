@@ -7,6 +7,7 @@ def snake_it_up(string)
       string[counter] = string[0] + string[counter + 1]
     counter += 1
   end
+string
 else
     string
   end
